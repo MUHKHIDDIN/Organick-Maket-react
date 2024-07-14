@@ -4,7 +4,7 @@ import { Button } from "../../components/Ui/Button";
 export const Hero = () => {
   return (
     <div className="pb-[100px]">
-      <div className=" bg-[url('hero-bg.png')] bg-cover bg-center pt-[250px] pb-[250px] mx-auto ">
+      <div className=" bg-[url('/hero-bg.png')] bg-cover bg-center pt-[250px] pb-[250px] mx-auto ">
         <div className="container ">
           <h1 className="font-[400px] text-[20px] text-[#68a47f] mb-[8px]">
             100% Natural Food
