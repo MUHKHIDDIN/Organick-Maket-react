@@ -7,6 +7,10 @@ import Product5 from "../assets/img/Product5.png";
 import Product6 from "../assets/img/Product6.png";
 import Product7 from "../assets/img/Product7.png";
 import Product8 from "../assets/img/Product8.png";
+import Product16 from "../assets/img/Product16.png";
+import Product17 from "../assets/img/Product17.png";
+import Product18 from "../assets/img/Product18.png";
+import Product19 from "../assets/img/Product19.png";
 export const ProductData = [
   {
    img:Product1,
@@ -80,4 +84,39 @@ export const ProductData = [
     rating: "★★★★★",
     id:nanoid()
   },
+  {
+    img:Product16,
+    category: "Health",
+    name: "Mung Bean",
+    originalPrice: "$20.00",
+    currentPrice: "$11.00",
+    rating: "★★★★★",
+    id:nanoid()
+  },
+  {
+    img:Product17,
+    category: "Nuts",
+    name: "White Hazelnut",
+    originalPrice: "$20.00",
+    currentPrice: "$12.00",
+    rating: "★★★★★",
+    id:nanoid()
+  },
+  {
+    img:Product18,
+    category: "Fresh",
+    name: "Fresh Corn",
+    originalPrice: "$20.00",
+    currentPrice: "$17.00",
+    rating: "★★★★★",
+    id:nanoid()
+  },
+  {
+    img:Product19,
+    category: "Fresh",
+    name: "Organic Almonds",
+    originalPrice: "$20.00",
+    currentPrice: "$15.00",
+    rating: "★★★★★",
+  }
 ];

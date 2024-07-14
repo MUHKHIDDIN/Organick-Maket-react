@@ -13,13 +13,13 @@ export const ShopSingle = () => {
 
   return (
     <div>
-      <div className="pt-[180px] pb-[180px] pl-[700px] pr-[500px] font-[800px] text-[70px] bg-[url('shop-img.jpg')] bg-cover">
-        <h1>Shop Single</h1>
+      <div className="pt-[180px] pb-[180px] pl-[600px] pr-[500px] font-bold text-[70px] bg-[url('/shop-img.jpg')] bg-cover bg-center bg-no-repeat">
+        <h1 className="text-[#274c5b] text-[60px] font-bold">Shop Single</h1>
       </div>
-      <div className="flex items-center justify-between w-[1337px] mx-auto pb-[90px]">
+      <div className="flex items-center justify-between max-w-[1200px] mx-auto pb-[90px]">
         <img className="w-[501px] h-[560px]" src={data.img} alt={data.name} />
         <div className="w-[660px]">
-          <h1 className="font-[600px] text-[40px] mb-[9px]">{data.name}</h1>
+          <h1 className="font-semibold text-[40px] mb-[9px]">{data.name}</h1>
           <p className="text-[#ffa858] mb-[9px]">{data.rating}</p>
           <p>{data.category}</p>
           <div className="flex items-center gap-4">
@@ -37,36 +37,36 @@ export const ShopSingle = () => {
               <p>Quantity :</p>
               <Button
                 variant={
-                  "pt-[20px] pb-[20px] pl-[40px] pr-[40px] text-[#274c5b] rounded-[16px] font-[500px] text-[16px] border border-[#274c5b]"
+                  "pt-[10px] pb-[10px] pl-[20px] pr-[20px] text-[#274c5b] rounded-[16px] font-medium text-[16px] border border-[#274c5b]"
                 }
               >
                 1
               </Button>
             </div>
-            <Button variant="pt-[20px] pb-[20px] pl-[40px] pr-[40px] bg-[#274c5b] text-white rounded-[16px] font-[500px] text-[16px]">
+            <Button variant="pt-[10px] pb-[10px] pl-[20px] pr-[20px] bg-[#274c5b] text-white rounded-[16px] font-medium text-[16px]">
               Add To Cart
             </Button>
           </div>
         </div>
       </div>
       <div className="container pb-[140px]">
-        <div className="flex gap-4 w-[1137px] ml-[350px] text-center">
+        <div className="flex gap-4 justify-center text-center mb-[50px]">
           <Button
             variant={
-              "pt-[15px] pb-[15px] pl-[50px] pr-[50px] bg-[#274c5b] text-white rounded-[16px] font-[700px] text-[25px]"
+              "pt-[10px] pb-[10px] pl-[30px] pr-[30px] bg-[#274c5b] text-white rounded-[16px] font-semibold text-[18px]"
             }
           >
             Product Description
           </Button>
           <Button
             variant={
-              "pt-[15px] pb-[15px] pl-[50px] pr-[50px] bg-[#c3c9c5] text-[#274c5b] rounded-[16px] font-[700px] text-[25px]"
+              "pt-[10px] pb-[10px] pl-[30px] pr-[30px] bg-[#c3c9c5] text-[#274c5b] rounded-[16px] font-semibold text-[18px]"
             }
           >
             Additional Info
           </Button>
         </div>
-        <p className="text-[#525c60] mt-[30px] text-[18px] font-[400px] text-center w-[1137px] mx-auto">
+        <p className="text-[#525c60] text-[18px] font-normal text-center max-w-[900px] mx-auto">
           Welcome to the world of natural and organic. Here you can discover the
           bounty of nature. We have grown on the principles of health, ecology,
           and care. We aim to give our customers a healthy chemical-free meal
@@ -76,14 +76,14 @@ export const ShopSingle = () => {
         </p>
       </div>
       <div className="container mx-auto pb-[140px]">
-        <h1 className="font-[800px] text-[50px] text-center text-[#274c5b] mb-[70px]">
+        <h1 className="font-bold text-[50px] text-center text-[#274c5b] mb-[70px]">
           Related Products
         </h1>
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 max-w-[1200px] mx-auto">
           {topProducts.map((item) => (
             <Link to={`/products/shopsingle/${item.id}`} key={item.id}>
-              <div className="border border-gray-200 p-4 rounded-lg shadow hover:shadow-lg transition-shadow duration-300 w-[300px] ">
-                <h1 className="font-[600px] text-[15px] bg-[#274c5b] w-[80px] text-center rounded-lg text-white mb-[20px]">
+              <div className="border border-gray-200 p-4 rounded-lg shadow hover:shadow-lg transition-shadow duration-300">
+                <h1 className="font-semibold text-[15px] bg-[#274c5b] w-[80px] text-center rounded-lg text-white mb-[20px]">
                   {item.category}
                 </h1>
                 <img
