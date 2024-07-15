@@ -118,5 +118,6 @@ export const ProductData = [
     originalPrice: "$20.00",
     currentPrice: "$15.00",
     rating: "★★★★★",
+    id:nanoid()
   }
 ];
