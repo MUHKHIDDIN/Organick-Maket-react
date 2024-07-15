@@ -38,7 +38,7 @@ export const AboutCrative = () => {
             </h1>
           </li>
         </ul>
-        <span className=" w-[220px] flex items-center gap-4 pt-[20px] pb-[20px] pl-[40px] pr-[40px] text-white  bg-primary rounded-[16px]">
+        <span className=" w-[220px] flex items-center gap-4 pt-[20px] pb-[20px] pl-[40px] pr-[40px] text-white  bg-primary rounded-[16px]  hover:bg-eigth hover:text-nineth hover:text-ninth hover:transform hover:scale-105">
           <Button>Explore More</Button>
           <span>
             <Icon1 />

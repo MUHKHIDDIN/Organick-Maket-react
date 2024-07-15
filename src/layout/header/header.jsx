@@ -65,7 +65,7 @@ export const Header = () => {
         </span>
       </form>
       <div className="relative flex items-center">
-        <span className="font-semibold text-[18px] text-primary border border-sixth rounded-full flex items-center justify-center  px-[20px] transition-colors duration-300 hover:bg-secondary hover:text-white">
+        <span className="font-semibold text-[18px] text-primary border border-sixth rounded-full flex items-center justify-center  px-[20px] transition-colors duration-300 hover:bg-eigth hover:text-white">
           <span className="mr-2">
             <Icon2 />
           </span>

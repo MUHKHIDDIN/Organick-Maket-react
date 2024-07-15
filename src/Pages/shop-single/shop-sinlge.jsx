@@ -34,15 +34,11 @@ export const ShopSingle = () => {
           <div className="flex items-center gap-[20px] mt-[30px]">
             <div className="flex items-center gap-4">
               <p>Quantity :</p>
-              <Button
-                variant={
-                  "pt-[10px] pb-[10px] pl-[20px] pr-[20px] text-[#274c5b] rounded-[16px] font-medium text-[16px] border border-[#274c5b]"
-                }
-              >
-                1
-              </Button>
+              <span className="pt-[10px] pb-[10px] pl-[20px] pr-[20px] text-[#274c5b] rounded-[16px] font-medium text-[16px] border border-[#274c5b]  hover:bg-primary hover:text-nineth hover:text-ninth hover:transform hover:scale-105">
+                <Button>1</Button>
+              </span>
             </div>
-            <span className=" flex items-center gap-4 pt-[12px] pb-[12px] pl-[20px] pr-[20px] bg-[#274c5b] text-white rounded-[16px] font-medium text-[16px]">
+            <span className=" flex items-center gap-4 pt-[12px] pb-[12px] pl-[20px] pr-[20px] bg-[#274c5b] text-white rounded-[16px] font-medium text-[16px]  hover:bg-eigth hover:text-nineth hover:text-ninth hover:transform hover:scale-105 ">
               <Button>Add To Cart</Button>
               <span>
                 <Icon1 />
@@ -53,20 +49,12 @@ export const ShopSingle = () => {
       </div>
       <div className="container pb-[140px]">
         <div className="flex gap-4 justify-center text-center mb-[50px]">
-          <Button
-            variant={
-              "pt-[10px] pb-[10px] pl-[30px] pr-[30px] bg-[#274c5b] text-white rounded-[16px] font-semibold text-[18px]"
-            }
-          >
-            Product Description
-          </Button>
-          <Button
-            variant={
-              "pt-[10px] pb-[10px] pl-[30px] pr-[30px] bg-[#c3c9c5] text-[#274c5b] rounded-[16px] font-semibold text-[18px]"
-            }
-          >
-            Additional Info
-          </Button>
+          <span className="pt-[10px] pb-[10px] pl-[30px] pr-[30px] bg-[#274c5b] text-white rounded-[16px] font-semibold text-[18px]  hover:bg-eigth hover:text-nineth hover:text-ninth hover:transform hover:scale-105">
+            <Button>Product Description</Button>
+          </span>
+          <span className="pt-[10px] pb-[10px] pl-[30px] pr-[30px] bg-[#274c5b] text-white rounded-[16px] font-semibold text-[18px]  hover:bg-eigth hover:text-nineth hover:text-ninth hover:transform hover:scale-105">
+            <Button>Additional Info</Button>
+          </span>
         </div>
         <p className="text-[#525c60] text-[18px] font-normal text-center max-w-[900px] mx-auto">
           Welcome to the world of natural and organic. Here you can discover the

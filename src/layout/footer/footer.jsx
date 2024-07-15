@@ -20,7 +20,7 @@ export const Footer = () => {
                 placeholder="Your Email Address"
               />
             </form>
-            <span className="pt-[20px] pb-[20px] pl-[40px] pr-[40px] text-sixth bg-primary rounded-[16px]">
+            <span className="pt-[20px] pb-[20px] pl-[40px] pr-[40px] text-sixth bg-primary rounded-[16px]  hover:bg-eigth hover:text-nineth hover:text-ninth hover:transform hover:scale-105">
               <Button>Subscribe</Button>
             </span>
           </li>

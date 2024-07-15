@@ -64,7 +64,7 @@ export const Home = () => {
             ))}
           </div>
           <div className="flex justify-center mt-8">
-            <span className="bg-primary rounded-lg font-semibold py-4 px-8  text-nineth text-sm  flex items-center gap-4">
+            <span className="bg-primary rounded-lg font-semibold py-4 px-8  text-nineth text-sm  flex items-center gap-4 hover:bg-eigth hover:text-nineth hover:text-ninth hover:transform hover:scale-105">
               <Button>Load More</Button>
               <span>
                 <Icon1 />
@@ -88,7 +88,7 @@ export const Home = () => {
               </h1>
             </li>
             <li>
-              <span className=" flex items-center gap-4 pt-[20px] pb-[20px] pl-[40px] pr-[40px] bg-third text-primary rounded-[16px] font-[500px] text-[16px] ml-[600px]">
+              <span className=" flex items-center gap-4 pt-[20px] pb-[20px] pl-[40px] pr-[40px] bg-third text-primary rounded-[16px] font-[500px] text-[16px] ml-[600px]  hover:bg-eigth hover:text-nineth hover:text-ninth hover:transform hover:scale-105">
                 <Button>Explore Now</Button>
                 <span>
                   <Icon1 />
@@ -166,7 +166,7 @@ export const Home = () => {
                     <p className="text-seventh text-[20px] font-[400px] mb-[15px]">
                       {item.text}
                     </p>
-                    <span className=" w-[220px] flex  items-center gap-4 pt-[15px] pb-[15px] pl-[40px] pr-[30px] bg-third text-primary rounded-[16px] font-[500px] text-[16px]">
+                    <span className=" w-[220px] flex  items-center gap-4 pt-[15px] pb-[15px] pl-[40px] pr-[30px] bg-third text-primary rounded-[16px] font-[500px] text-[16px]  hover:bg-eigth hover:text-nineth hover:text-ninth hover:transform hover:scale-105">
                       <Button>Read More</Button>
                       <span>
                         <Icon1 />

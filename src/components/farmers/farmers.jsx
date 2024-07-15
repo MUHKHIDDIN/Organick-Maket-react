@@ -47,7 +47,7 @@ export const Farmers = () => {
                 </p>
               </li>
             </ul>
-            <span className=" w-[250px] flex  items-center gap-4 pt-[20px] pb-[20px] pl-[50px] pr-[50px] bg-primary text-fifth rounded-[16px]">
+            <span className=" w-[250px] flex  items-center gap-4 pt-[20px] pb-[20px] pl-[50px] pr-[50px] bg-primary text-fifth rounded-[16px] hover:bg-eigth hover:text-ninth hover:transform hover:scale-105">
               <Button>ReadShop Now</Button>
               <span>
                 <Icon1 />
