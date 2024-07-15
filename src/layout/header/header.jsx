@@ -57,10 +57,10 @@ export const Header = () => {
       </nav>
       <form className="relative flex-grow max-w-xs mx-4">
         <Input
-          className="w-full pt-[10px] pb-[10px] px-4 rounded-full border border-secondary focus:outline-none focus:ring-2 focus:ring-blue-500 transition-shadow duration-300"
+          className="w-full pt-[20px] pb-[12px] px-4 rounded-full border border-secondary focus:outline-none focus:ring-2  transition-shadow duration-300"
           type="text"
         />
-        <span className="absolute right-4 top-1/2 transform -translate-y-1/2">
+        <span className="absolute right-[-1px] top-1/2 transform -translate-y-1/2 cursor-pointer">
           <Icon1 />
         </span>
       </form>
