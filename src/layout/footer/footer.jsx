@@ -67,7 +67,11 @@ export const Footer = () => {
         <ul className="text-center lg:text-left text-seventh">
           <li className="w-full lg:w-[400px]">
             <a href="#">
-              <img className="mb-[20px] mx-auto lg:ml-[30px]" src="/header-logo.svg" alt="logo" />
+              <img
+                className="mb-[20px] mx-auto lg:ml-[30px]"
+                src="/header-logo.svg"
+                alt="logo"
+              />
             </a>
             <div className="mb-[20px]">
               <p className="w-full lg:w-[280px] font-[400] text-[11px] text-seventh mb-[40px] mx-auto lg:mx-0">
@@ -148,8 +152,9 @@ export const Footer = () => {
           </li>
         </ul>
       </div>
-      <p className="text-seventh text-[18px] font-[400] text-center mt-12">
-        Copyright © Organick | Designed by VictorFlow Templates - Powered by Webflow
+      <p className="text-seventh text-[18px] font-[400] text-center mb-[20px]">
+        Copyright © Organick | Designed by VictorFlow Templates - Powered by
+        Webflow
       </p>
     </div>
   );

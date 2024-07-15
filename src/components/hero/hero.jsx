@@ -1,6 +1,6 @@
 import React from "react";
 import { Button } from "../../components/Ui/Button";
-
+import { Icon1 } from "../../assets/hero-icon/icon1.jsx";
 export const Hero = () => {
   return (
     <div className="pb-[100px]">
@@ -12,8 +12,13 @@ export const Hero = () => {
           <p className="text-5xl font-extrabold w-[426px] mb-[70px]  text-primary">
             Choose the best healthier way of life
           </p>
-          <span className="pt-[20px] pb-[20px] pl-[40px] pr-[40px] text-primary  bg-third rounded-[16px]">
+          <span className=" flex items-center gap-4 w-[220px] pt-[20px] pb-[20px] pl-[40px] pr-[40px] text-primary  bg-third rounded-[16px]">
             <Button>Explore Now</Button>
+            <span>
+              <span>
+                <Icon1 />
+              </span>
+            </span>
           </span>
         </div>
       </div>

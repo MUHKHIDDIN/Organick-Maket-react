@@ -1,5 +1,6 @@
 import React from "react";
 import { Button } from "../Ui/Button";
+import { Icon1 } from "../../assets/hero-icon/icon1.jsx";
 export const AboutCrative = () => {
   return (
     <div className="container flex gap-[100px]  ">
@@ -37,8 +38,11 @@ export const AboutCrative = () => {
             </h1>
           </li>
         </ul>
-        <span className="pt-[20px] pb-[20px] pl-[40px] pr-[40px] text-white  bg-primary rounded-[16px]">
+        <span className=" w-[220px] flex items-center gap-4 pt-[20px] pb-[20px] pl-[40px] pr-[40px] text-white  bg-primary rounded-[16px]">
           <Button>Explore More</Button>
+          <span>
+            <Icon1 />
+          </span>
         </span>
       </div>
     </div>

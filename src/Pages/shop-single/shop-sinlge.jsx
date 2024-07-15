@@ -2,12 +2,11 @@ import React from "react";
 import { useParams, Link } from "react-router-dom";
 import { ProductData } from "../../Data/product";
 import { Button } from "../../components/Ui/Button";
+import { Icon1 } from "../../assets/hero-icon/icon1.jsx";
 
 export const ShopSingle = () => {
   const { id } = useParams();
   const data = ProductData.find((item) => item.id == id);
-
-  if (!data) return <div>Product not found</div>;
 
   const topProducts = ProductData.slice(0, 4);
 
@@ -43,9 +42,12 @@ export const ShopSingle = () => {
                 1
               </Button>
             </div>
-            <Button variant="pt-[10px] pb-[10px] pl-[20px] pr-[20px] bg-[#274c5b] text-white rounded-[16px] font-medium text-[16px]">
-              Add To Cart
-            </Button>
+            <span className=" flex items-center gap-4 pt-[12px] pb-[12px] pl-[20px] pr-[20px] bg-[#274c5b] text-white rounded-[16px] font-medium text-[16px]">
+              <Button>Add To Cart</Button>
+              <span>
+                <Icon1 />
+              </span>
+            </span>
           </div>
         </div>
       </div>

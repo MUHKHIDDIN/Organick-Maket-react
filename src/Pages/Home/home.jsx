@@ -10,6 +10,7 @@ import { ProductData2 } from "../../Data/product2";
 import { Orgaines } from "../../components/orgaines/";
 import { Cart } from "../../components/cart";
 import { ProductData3 } from "../../Data/Product3";
+import { Icon1 } from "../../assets/hero-icon/icon1.jsx";
 export const Home = () => {
   return (
     <div>
@@ -63,8 +64,11 @@ export const Home = () => {
             ))}
           </div>
           <div className="flex justify-center mt-8">
-            <span className="bg-primary rounded-lg font-semibold py-4 px-8  text-nineth text-sm ">
+            <span className="bg-primary rounded-lg font-semibold py-4 px-8  text-nineth text-sm  flex items-center gap-4">
               <Button>Load More</Button>
+              <span>
+                <Icon1 />
+              </span>
             </span>
           </div>
         </div>
@@ -84,14 +88,11 @@ export const Home = () => {
               </h1>
             </li>
             <li>
-              <span>
-                <Button
-                  variant={
-                    "pt-[20px] pb-[20px] pl-[40px] pr-[40px] bg-third text-primary rounded-[16px] font-[500px] text-[16px] ml-[600px]"
-                  }
-                >
-                  Explore Now
-                </Button>
+              <span className=" flex items-center gap-4 pt-[20px] pb-[20px] pl-[40px] pr-[40px] bg-third text-primary rounded-[16px] font-[500px] text-[16px] ml-[600px]">
+                <Button>Explore Now</Button>
+                <span>
+                  <Icon1 />
+                </span>
               </span>
             </li>
           </ul>
@@ -165,8 +166,11 @@ export const Home = () => {
                     <p className="text-seventh text-[20px] font-[400px] mb-[15px]">
                       {item.text}
                     </p>
-                    <span className="pt-[15px] pb-[15px] pl-[40px] pr-[40px] bg-third text-primary rounded-[16px] font-[500px] text-[16px]">
+                    <span className=" w-[220px] flex  items-center gap-4 pt-[15px] pb-[15px] pl-[40px] pr-[30px] bg-third text-primary rounded-[16px] font-[500px] text-[16px]">
                       <Button>Read More</Button>
+                      <span>
+                        <Icon1 />
+                      </span>
                     </span>
                   </div>
                 </div>

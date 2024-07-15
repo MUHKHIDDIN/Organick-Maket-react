@@ -1,5 +1,6 @@
 import React from "react";
 import { Button } from "../Ui/Button";
+import { Icon1 } from "../../assets/hero-icon/icon1.jsx";
 export const Farmers = () => {
   return (
     <div className="pb-[170px]">
@@ -46,8 +47,11 @@ export const Farmers = () => {
                 </p>
               </li>
             </ul>
-            <span className="pt-[20px] pb-[20px] pl-[50px] pr-[50px] bg-primary text-fifth rounded-[16px]">
+            <span className=" w-[250px] flex  items-center gap-4 pt-[20px] pb-[20px] pl-[50px] pr-[50px] bg-primary text-fifth rounded-[16px]">
               <Button>ReadShop Now</Button>
+              <span>
+                <Icon1 />
+              </span>
             </span>
           </div>
         </div>

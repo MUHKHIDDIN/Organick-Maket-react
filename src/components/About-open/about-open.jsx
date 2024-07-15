@@ -1,5 +1,6 @@
 import React from "react";
 import { Button } from "../Ui/Button";
+import { Icon1 } from "../../assets/about-icon/icon1.jsx";
 export const AboutOpen = () => {
   return (
     <div className="pt-[200px] pb-[200px] bg-sixth">
@@ -16,14 +17,20 @@ export const AboutOpen = () => {
             had ceased to been the industry's standard the 1500s, when an
             unknown
           </p>
-          <span className="pt-[20px] pb-[20px] pl-[40px] pr-[70px] text-primary bg-fifth rounded-[30px] ">
+          <span className=" w-[400px] flex items-center gap-[10px] pt-[20px] pb-[20px] pl-[40px] pr-[70px] text-primary bg-fifth rounded-[30px] ">
+            <span>
+              <Icon1 />
+            </span>
             <Button>100% Natural Product</Button>
           </span>
           <p className="text-seventh text-[18px] font-[400px] w-[400px] mt-[40px] mb-[40px]">
             Simply dummy text of the printing and typesetting industry Lorem
             Ipsum
           </p>
-          <span className="pt-[20px] pb-[20px] pl-[40px] pr-[90px] text-primary bg-fifth rounded-[30px] ">
+          <span className="  w-[400px] flex items-center gap-[10px] pt-[20px] pb-[20px] pl-[40px] pr-[90px] text-primary bg-fifth rounded-[30px] ">
+          <span>
+              <Icon1 />
+            </span>
             <Button> Increases resistance</Button>
           </span>
         </div>
