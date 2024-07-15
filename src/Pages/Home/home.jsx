@@ -150,7 +150,7 @@ export const Home = () => {
                   alt={item.name}
                   className="w-full h-48 object-cover rounded-lg mb-4"
                 />
-                <div className="absolute top-[20px] right-[500px] w-[60px] h-[60px] bg-fifth text-primary font-medium text-sm pt-[4px] mt-[15px] pb-[4px] pl-[8px] pr-[8px] rounded-[50%] text-center">
+                <div className="absolute top-[20px] right-[500px] w-[60px] h-[60px] bg-fifth text-primary font-medium text-sm pt-[20px] mt-[15px] pb-[4px] pl-[8px] pr-[8px] rounded-[50%] text-center ">
                   {item.category}
                 </div>
                 <h1 className="text-primary text-xl font-[400px] text-[18px] mb-[15px]">
