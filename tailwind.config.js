@@ -12,7 +12,7 @@ export default {
         margin: "0 auto",
       },
       fontFamily: {
-        sans: ["Open Sans", "sans-serif"], 
+        sans: ["Open Sans Regular Open Sans"], 
       },
       colors: {
         primary: "#274c5b",

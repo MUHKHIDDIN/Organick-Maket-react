@@ -27,12 +27,7 @@ export const Header = () => {
         >
           About
         </Link>
-        <Link
-          to="/page"
-          className="text-primary hover:text-eigth text-[20px] transition-colors duration-300"
-        >
-          Pages
-        </Link>
+     
         <span>
           <Icon3 />
         </span>
@@ -41,18 +36,6 @@ export const Header = () => {
           className="text-primary hover:text-eigth text-[20px] transition-colors duration-300"
         >
           Shop
-        </Link>
-        <Link
-          to="/project"
-          className="text-primary hover:text-eigth text-[20px] transition-colors duration-300"
-        >
-          Project
-        </Link>
-        <Link
-          to="/news"
-          className="text-primary hover:text-eigth text-[20px] transition-colors duration-300"
-        >
-          News
         </Link>
       </nav>
       <form className="relative flex-grow max-w-xs mx-4">
